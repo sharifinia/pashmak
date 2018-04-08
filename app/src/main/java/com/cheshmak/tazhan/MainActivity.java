@@ -52,8 +52,6 @@ public class MainActivity extends AppCompatActivity implements NetUtils.Communic
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Utils.getCounties();
-
 
         viewPagerBillboards = findViewById(R.id.viewPagerBillboards);
         toolbar = findViewById(R.id.toolbarBillboards);
