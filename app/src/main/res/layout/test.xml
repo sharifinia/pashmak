@@ -5,7 +5,7 @@
     android:id="@+id/activity_summoner_search"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.cheshmak.tazhan.cheshmak.com.cheshmak.tazhan.testActivity">
+    tools:context="com.pashmak.test.testActivity">
 
 
     <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="appBar">56dp</dimen>
+    <dimen name="filterBar">64dp</dimen>
     <dimen name="appBarButtons">48dp</dimen>
     <dimen name="cardView_height">100dp</dimen>
-    <dimen name="textSize_tabItem">20sp</dimen>
-    <dimen name="textSize_toast">5sp</dimen>
+    <dimen name="textSize_tabItem">25sp</dimen>
+    <dimen name="textSize_toast">15sp</dimen>
     <dimen name="billboard_margin">1dp</dimen>
+    <dimen name="peekHeight">92dp</dimen>
 </resources>

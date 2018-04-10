@@ -19,8 +19,10 @@
             android:id="@+id/searchLayout"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintRight_toLeftOf="@+id/iBFilter"
+            app:layout_constraintEnd_toStartOf="@+id/toolbar_title"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -68,23 +70,11 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <ImageButton
-            android:id="@+id/iBFilter"
-            style="@android:style/Widget.Holo.Light.ImageButton"
-            android:layout_width="@dimen/appBarButtons"
-            android:layout_height="@dimen/appBarButtons"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/toolbar_title"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_filter" />
-
         <TextView
             android:id="@+id/toolbar_title"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_gravity="start"
+            android:layout_gravity="end"
             android:layout_margin="8dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
